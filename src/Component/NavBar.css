@@ -1,0 +1,40 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.navMain{
+    background-color: rgb(79, 79, 173);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navLinks a{
+    color: white;
+    text-decoration: none;
+}
+.navLinks{
+    display: flex;
+    gap: 60px;
+}
+.navLinks a:hover{
+    color: rgb(0, 255, 8);
+}
+.navCart{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.navCart a{
+    text-decoration: none;
+    color: white;
+}
+.navCart a:hover{
+   color: rgb(233, 67, 67);
+}
